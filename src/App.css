@@ -1,0 +1,82 @@
+* {
+  font-family: Bahnschrift;
+}
+body {
+  display: grid; /* (type - block) grid-based layout system, with rows and columns */
+  background-image: url(/public/images/notepad1.png);
+  background-size: cover;
+  color: white;
+}
+.title {
+  text-align: center;
+  font-size: 900%;
+  margin-top: 0.5%;
+  margin-bottom: 0%;
+}
+
+.stack {
+  justify-content: flex-end;
+  font-size: 40px;
+  margin-top: 1%;
+  margin-left: 5%;
+  color: #000000;
+}
+.form {
+  text-align: center;
+  margin-top: 1%;
+}
+.input {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 30px;
+  width: 500px;
+  height: 80px;
+  border-radius: 10px;
+  border-color: #ffffff;
+  color: #279784;
+}
+.deleteButton {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 3%;
+}
+.addButton {
+  background-color: transparent;
+  border: 1px solid #279784;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 10%;
+  height: 40px;
+  transition-duration: 0.5s;
+}
+.addButton span {
+  color: #279784;
+}
+.addButton:hover {
+  background-color: #279784; /* Green */
+  color: white;
+}
+.addButton:hover span {
+  color: white;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
